@@ -1,0 +1,25 @@
+<div class="container">
+
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <th>
+                Name
+            </th>
+            <th>
+                Age
+            </th>
+        </thead>
+        <tbody>
+            <tr ng-repeat="student in $ctrl.students">
+                <td>
+                    {{ student.name }}
+                </td>
+                <td>
+                    {{ student.age }}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
