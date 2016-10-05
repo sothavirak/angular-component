@@ -1,8 +1,8 @@
 angular.module('webapp', [])
 
 .component('studentList', {
-    templateUrl: 'template/phone-list.html',
-    controller: function PhoneListController() {
+    templateUrl: 'template/student-list.html',
+    controller: function StudentListController() {
         this.students = [{
             name: 'Duck',
             age: '12'
